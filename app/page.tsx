@@ -11,8 +11,9 @@ export default function Main() {
   // const router = useRouter()
 
   return (
-    <div className="min-h-screen bg-zinc-100 flex flex-col items-center justify-center text-white">
+    <div className="min-h-screen bg-zinc-300 flex flex-col items-center justify-center text-white">
       <div className="flex flex-col items-center justify-center text-center mb-5">
+        <img src="/starkhack.svg" className="w-32"/>
         <div className="mb-6">
           <div className="inline-flex items-center justify-center">
             <img src="/logo.png" alt="logo" className="w-64" />
@@ -22,6 +23,12 @@ export default function Main() {
           Smart wallet : The future of banking in your{" "}
           <span className="text-[#FC8854]">pocket</span>.
         </h1>
+        
+        <h1 className="text-xl font-bold mb-10 text-[#3D1677]">
+              Powered by 
+          <img src="/dynamiclogo.svg" className="ml-10 w-64" />
+        </h1>
+        
 
         <DynamicWidget />
       </div>
