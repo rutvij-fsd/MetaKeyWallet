@@ -67,7 +67,7 @@ const Onramp: FC = () => {
             <div className="flex justify-center ">
                     <button id="overlay-button" className="p-[3px] relative"  type="button" onClick={handleOnClick}>
                         <div className="absolute inset-0 bg-gradient-to-r from-indigo-900 to-orange-500 rounded-lg" />
-                        <div className="px-8 py-2  bg-zinc-100 rounded-[6px]  relative group transition duration-200 text-[#3D1677] hover:bg-transparent hover:text-white">
+                        <div className="px-8 py-2  bg-zinc-300 rounded-[6px]  relative group transition duration-200 text-[#3D1677] hover:bg-transparent hover:text-white">
                             Onramp
                         </div>
                     </button>
