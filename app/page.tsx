@@ -1,6 +1,6 @@
 "use client";
 
-import Onramp from "@/component/onramp/Onramp";
+import Onramp from "@/app/components/onramp/Onramp"
 import { DynamicWidget } from "../lib/dynamic";
 import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
 // import { useRouter } from 'next/navigation'
